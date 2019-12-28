@@ -17,8 +17,12 @@ end
 
 def long_planeteer_calls(array_of_calls) 
 
-	check_characters = array_of_calls.inject {|call| call.length < 4 true else false }
-
+	check_characters = array_of_calls.each do |call| 
+		if call.length < 4 
+			true 
+		else 
+			false 
+		end
 		
 	end
 	check_characters
