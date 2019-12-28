@@ -26,9 +26,11 @@ def find_the_cheese(array)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  cheese_found = array.select { |food| cheese_types.include? food }
+  cheese_found = cheese_types & array)
+  if ( cheese_types & array ). length > 0 
+  	puts (cheese_types & array).first
 
-  cheese_found
-
+  end
+ 
 
 end
