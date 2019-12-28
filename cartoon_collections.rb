@@ -29,9 +29,10 @@ def find_the_cheese(array)
   cheese_found = (cheese_types & array)
   if cheese_found. length > 0 
   	cheese_found = cheese_found[0]
+  	cheese_found
   else 
   	nil
   end
- cheese_found
+ 
 
 end
