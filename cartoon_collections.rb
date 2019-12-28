@@ -17,7 +17,7 @@ end
 
 def long_planeteer_calls(array_of_calls) 
 
-	array.any?.length > 4 
+	array_of_calls.any?.length > 4 
 
 end
 
