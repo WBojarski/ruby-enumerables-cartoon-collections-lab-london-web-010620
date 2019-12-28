@@ -17,7 +17,9 @@ end
 
 def long_planeteer_calls(array_of_calls) 
 
-	array_of_calls.any?.length > 4 
+	character_check = array_of_calls.any? do |call|
+		call.length < 4
+	end
 
 end
 
