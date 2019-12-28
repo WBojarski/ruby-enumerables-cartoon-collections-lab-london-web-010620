@@ -19,7 +19,7 @@ def long_planeteer_calls(array_of_calls)
 
 	counter = 0 
 	while counter < array_of_calls.length do
-		if array_of_calls[counter].length > 4
+		check character = if array_of_calls[counter].length > 4
 			true
 			counter += 1
 		else
@@ -29,7 +29,7 @@ def long_planeteer_calls(array_of_calls)
 
 		
 	end
-	check_characters
+	
 end
 
 def find_the_cheese# code an argument here
