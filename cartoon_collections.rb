@@ -29,7 +29,8 @@ def find_the_cheese(array)
   cheese_found = (cheese_types & array)
   if ( cheese_types & array ). length > 0 
   	puts (cheese_types & array).first
-
+  else 
+  	nil
   end
  
 
