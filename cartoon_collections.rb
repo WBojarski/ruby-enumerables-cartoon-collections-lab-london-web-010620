@@ -17,13 +17,13 @@ end
 
 def long_planeteer_calls(array_of_calls) 
 
-	check_characters = array_of_calls.reduce(0) do |call|
-		if call.length < 4 
+	counter = 0 
+	while counter < array_of_calls.length do
+		if array_of_calls[counter].length > 4
 			true
 		else
 			false
 		end
-	}
 		
 	end
 	check_characters
