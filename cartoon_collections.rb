@@ -17,16 +17,7 @@ end
 
 def long_planeteer_calls(array_of_calls) 
 
-	counter = 0 
-	while counter < array_of_calls.length do
-		check_character = if array_of_calls[counter].length > 4
-			true
-			counter += 1
-		else
-			false
-			counter += 1
-		end
-
+	array.any?.length > 4 
 		
 	end
 	check_character
